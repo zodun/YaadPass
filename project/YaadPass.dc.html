@@ -118,15 +118,21 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing
                 <div style="margin-top:13px;background:linear-gradient(160deg,#0B3D2A,#11543A);border-radius:18px;padding:14px;position:relative;overflow:hidden;">
                   <div style="font-size:10px;font-weight:700;color:rgba(255,255,255,0.7);letter-spacing:0.06em;text-transform:uppercase;">Live discovery map</div>
                   <svg viewBox="0 0 208 96" style="width:100%;margin-top:6px;display:block;">
-                    <path d="M16,52 C20,38 44,30 78,33 C104,35 128,26 158,32 C180,36 196,44 192,55 C187,68 158,70 126,68 C96,66 64,73 40,69 C24,66 12,63 16,52 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(244,196,48,0.55)" stroke-width="1.4"></path>
-                    <circle data-map-dot="" cx="62" cy="48" r="4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
-                    <circle data-map-dot="" cx="118" cy="44" r="4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
-                    <circle data-map-dot="" cx="156" cy="52" r="4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
-                    <circle cx="62" cy="48" r="2.4" fill="#fff"></circle>
-                    <circle cx="118" cy="44" r="2.4" fill="#fff"></circle>
-                    <circle cx="156" cy="52" r="2.4" fill="#fff"></circle>
-                    <circle cx="92" cy="58" r="2" fill="rgba(255,255,255,0.6)"></circle>
-                    <circle cx="138" cy="38" r="2" fill="rgba(255,255,255,0.6)"></circle>
+                    <line x1="38" y1="58" x2="70" y2="42" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+                    <line x1="70" y1="42" x2="98" y2="62" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+                    <line x1="98" y1="62" x2="128" y2="40" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+                    <line x1="128" y1="40" x2="160" y2="56" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+                    <line x1="128" y1="40" x2="176" y2="38" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+                    <line x1="70" y1="42" x2="128" y2="40" stroke="rgba(255,255,255,0.1)" stroke-width="1"></line>
+                    <circle cx="38" cy="58" r="3" fill="rgba(255,255,255,0.5)"></circle>
+                    <circle cx="98" cy="62" r="3" fill="rgba(255,255,255,0.5)"></circle>
+                    <circle cx="176" cy="38" r="3" fill="rgba(255,255,255,0.5)"></circle>
+                    <circle data-map-dot="" cx="70" cy="42" r="5" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
+                    <circle data-map-dot="" cx="128" cy="40" r="5" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
+                    <circle data-map-dot="" cx="160" cy="56" r="5" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.6s ease-in-out infinite;"></circle>
+                    <circle cx="70" cy="42" r="2.4" fill="#fff"></circle>
+                    <circle cx="128" cy="40" r="2.4" fill="#fff"></circle>
+                    <circle cx="160" cy="56" r="2.4" fill="#fff"></circle>
                   </svg>
                 </div>
                 <!-- scan card -->
@@ -176,25 +182,37 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing
           <div style="background:#fff;border:1px solid #EDEAE2;border-radius:20px;padding:18px;box-shadow:0 10px 30px rgba(20,18,10,0.05);">
             <div style="font-size:12px;font-weight:800;color:#A6A096;letter-spacing:0.04em;text-transform:uppercase;">Typical route</div>
             <svg viewBox="0 0 208 110" style="width:100%;margin-top:12px;display:block;">
-              <path d="M16,58 C20,44 44,36 78,39 C104,41 128,32 158,38 C180,42 196,50 192,61 C187,74 158,76 126,74 C96,72 64,79 40,75 C24,72 12,69 16,58 Z" fill="#F4F2EC" stroke="#E2DED4" stroke-width="1.4"></path>
-              <circle cx="150" cy="52" r="5" fill="#C9C3B6"></circle>
-              <circle cx="158" cy="60" r="5" fill="#C9C3B6"></circle>
-              <circle cx="144" cy="62" r="5" fill="#C9C3B6"></circle>
-              <circle cx="153" cy="46" r="5" fill="#C9C3B6"></circle>
+              <line x1="150" y1="52" x2="158" y2="62" stroke="#DCD7CB" stroke-width="1.2"></line>
+              <line x1="150" y1="52" x2="140" y2="64" stroke="#DCD7CB" stroke-width="1.2"></line>
+              <line x1="150" y1="52" x2="154" y2="42" stroke="#DCD7CB" stroke-width="1.2"></line>
+              <line x1="158" y1="62" x2="168" y2="54" stroke="#DCD7CB" stroke-width="1.2"></line>
+              <circle cx="150" cy="52" r="6" fill="#C4BEB0"></circle>
+              <circle cx="158" cy="62" r="5" fill="#CBC5B8"></circle>
+              <circle cx="140" cy="64" r="5" fill="#CBC5B8"></circle>
+              <circle cx="154" cy="42" r="5" fill="#CBC5B8"></circle>
+              <circle cx="168" cy="54" r="4" fill="#D6D1C5"></circle>
             </svg>
             <div style="margin-top:6px;font-size:13px;font-weight:600;color:#8A867C;">A handful of crowded resort zones.</div>
           </div>
           <div style="background:#0B3D2A;border-radius:20px;padding:18px;box-shadow:0 16px 40px rgba(11,61,42,0.28);">
             <div style="font-size:12px;font-weight:800;color:var(--ya-gold,#F4C430);letter-spacing:0.04em;text-transform:uppercase;">Authentic Jamaica</div>
             <svg viewBox="0 0 208 110" style="width:100%;margin-top:12px;display:block;">
-              <path d="M16,58 C20,44 44,36 78,39 C104,41 128,32 158,38 C180,42 196,50 192,61 C187,74 158,76 126,74 C96,72 64,79 40,75 C24,72 12,69 16,58 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(244,196,48,0.45)" stroke-width="1.4"></path>
-              <circle cx="44" cy="56" r="4" fill="#5CD08A"></circle>
-              <circle cx="74" cy="50" r="4" fill="#F4C430"></circle>
-              <circle cx="100" cy="62" r="4" fill="#5CD08A"></circle>
-              <circle cx="126" cy="48" r="4" fill="#F4C430"></circle>
-              <circle cx="150" cy="58" r="4" fill="#5CD08A"></circle>
-              <circle cx="174" cy="54" r="4" fill="#F4C430"></circle>
-              <circle cx="60" cy="66" r="4" fill="#5CD08A"></circle>
+              <line x1="30" y1="58" x2="60" y2="44" stroke="rgba(244,196,48,0.3)" stroke-width="1"></line>
+              <line x1="60" y1="44" x2="92" y2="62" stroke="rgba(244,196,48,0.3)" stroke-width="1"></line>
+              <line x1="92" y1="62" x2="124" y2="44" stroke="rgba(244,196,48,0.3)" stroke-width="1"></line>
+              <line x1="124" y1="44" x2="152" y2="60" stroke="rgba(244,196,48,0.3)" stroke-width="1"></line>
+              <line x1="152" y1="60" x2="178" y2="48" stroke="rgba(244,196,48,0.3)" stroke-width="1"></line>
+              <line x1="60" y1="44" x2="50" y2="80" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+              <line x1="124" y1="44" x2="134" y2="82" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+              <line x1="92" y1="62" x2="50" y2="80" stroke="rgba(255,255,255,0.16)" stroke-width="1"></line>
+              <circle cx="30" cy="58" r="4.5" fill="#5CD08A"></circle>
+              <circle cx="60" cy="44" r="4.5" fill="#F4C430"></circle>
+              <circle cx="92" cy="62" r="4.5" fill="#5CD08A"></circle>
+              <circle cx="124" cy="44" r="4.5" fill="#F4C430"></circle>
+              <circle cx="152" cy="60" r="4.5" fill="#5CD08A"></circle>
+              <circle cx="178" cy="48" r="4.5" fill="#F4C430"></circle>
+              <circle cx="50" cy="80" r="4.5" fill="#F4C430"></circle>
+              <circle cx="134" cy="82" r="4.5" fill="#5CD08A"></circle>
             </svg>
             <div style="margin-top:6px;font-size:13px;font-weight:600;color:rgba(255,255,255,0.72);">Discoveries spread across every parish.</div>
           </div>
@@ -323,20 +341,27 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing
         </div>
         <div data-reveal="" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:clamp(20px,3vw,34px);">
           <svg viewBox="0 0 208 100" style="width:100%;display:block;">
-            <path d="M16,52 C20,38 44,30 78,33 C104,35 128,26 158,32 C180,36 196,44 192,55 C187,68 158,70 126,68 C96,66 64,73 40,69 C24,66 12,63 16,52 Z" fill="rgba(255,255,255,0.05)" stroke="rgba(244,196,48,0.4)" stroke-width="1.2"></path>
-            <circle data-map-dot="" cx="44" cy="50" r="5" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
-            <circle data-map-dot="" cx="72" cy="44" r="5" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
-            <circle data-map-dot="" cx="104" cy="56" r="5" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
-            <circle data-map-dot="" cx="134" cy="44" r="5" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
-            <circle data-map-dot="" cx="162" cy="54" r="5" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
-            <circle cx="44" cy="50" r="2.6" fill="#fff"></circle>
-            <circle cx="72" cy="44" r="2.6" fill="#fff"></circle>
-            <circle cx="104" cy="56" r="2.6" fill="#fff"></circle>
-            <circle cx="134" cy="44" r="2.6" fill="#fff"></circle>
-            <circle cx="162" cy="54" r="2.6" fill="#fff"></circle>
-            <circle cx="58" cy="60" r="2" fill="rgba(255,255,255,0.55)"></circle>
-            <circle cx="120" cy="40" r="2" fill="rgba(255,255,255,0.55)"></circle>
-            <circle cx="88" cy="64" r="2" fill="rgba(255,255,255,0.55)"></circle>
+            <line x1="30" y1="52" x2="58" y2="40" stroke="rgba(255,255,255,0.14)" stroke-width="1"></line>
+            <line x1="58" y1="40" x2="90" y2="58" stroke="rgba(255,255,255,0.14)" stroke-width="1"></line>
+            <line x1="90" y1="58" x2="122" y2="42" stroke="rgba(255,255,255,0.14)" stroke-width="1"></line>
+            <line x1="122" y1="42" x2="150" y2="58" stroke="rgba(255,255,255,0.14)" stroke-width="1"></line>
+            <line x1="150" y1="58" x2="180" y2="46" stroke="rgba(255,255,255,0.14)" stroke-width="1"></line>
+            <line x1="58" y1="40" x2="66" y2="74" stroke="rgba(255,255,255,0.1)" stroke-width="1"></line>
+            <line x1="122" y1="42" x2="112" y2="76" stroke="rgba(255,255,255,0.1)" stroke-width="1"></line>
+            <circle data-map-dot="" cx="30" cy="52" r="6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle data-map-dot="" cx="58" cy="40" r="6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle data-map-dot="" cx="90" cy="58" r="6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle data-map-dot="" cx="122" cy="42" r="6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle data-map-dot="" cx="150" cy="58" r="6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle data-map-dot="" cx="180" cy="46" r="6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-pulse 2.8s ease-in-out infinite;"></circle>
+            <circle cx="30" cy="52" r="3" fill="#fff"></circle>
+            <circle cx="58" cy="40" r="3" fill="#fff"></circle>
+            <circle cx="90" cy="58" r="3" fill="#fff"></circle>
+            <circle cx="122" cy="42" r="3" fill="#fff"></circle>
+            <circle cx="150" cy="58" r="3" fill="#fff"></circle>
+            <circle cx="180" cy="46" r="3" fill="#fff"></circle>
+            <circle cx="66" cy="74" r="3.5" fill="rgba(255,255,255,0.5)"></circle>
+            <circle cx="112" cy="76" r="3.5" fill="rgba(255,255,255,0.5)"></circle>
           </svg>
           <div style="margin-top:12px;display:flex;justify-content:space-between;font-size:12.5px;font-weight:600;color:rgba(255,255,255,0.6);">
             <span>1,240 active discoveries</span>
@@ -373,18 +398,27 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing
       </div>
       <div data-reveal="" style="margin-top:clamp(40px,6vw,72px);max-width:640px;margin-left:auto;margin-right:auto;">
         <svg viewBox="0 0 208 100" style="width:100%;display:block;filter:drop-shadow(0 0 30px rgba(244,196,48,0.15));">
-          <path d="M16,52 C20,38 44,30 78,33 C104,35 128,26 158,32 C180,36 196,44 192,55 C187,68 158,70 126,68 C96,66 64,73 40,69 C24,66 12,63 16,52 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(244,196,48,0.4)" stroke-width="1.2"></path>
-          <circle data-island-dot="" cx="34" cy="52" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="52" cy="46" r="3.4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="70" cy="54" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="88" cy="42" r="3.4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="104" cy="58" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="122" cy="46" r="3.4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="140" cy="54" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="158" cy="44" r="3.4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="174" cy="52" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="60" cy="62" r="3.4" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
-          <circle data-island-dot="" cx="116" cy="62" r="3.4" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <line x1="34" y1="52" x2="52" y2="44" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="52" y1="44" x2="74" y2="56" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="74" y1="56" x2="96" y2="42" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="96" y1="42" x2="118" y2="58" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="118" y1="58" x2="140" y2="44" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="140" y1="44" x2="162" y2="56" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="162" y1="56" x2="182" y2="46" stroke="rgba(244,196,48,0.22)" stroke-width="0.9"></line>
+          <line x1="52" y1="44" x2="62" y2="74" stroke="rgba(255,255,255,0.14)" stroke-width="0.9"></line>
+          <line x1="96" y1="42" x2="108" y2="74" stroke="rgba(255,255,255,0.14)" stroke-width="0.9"></line>
+          <line x1="140" y1="44" x2="150" y2="74" stroke="rgba(255,255,255,0.14)" stroke-width="0.9"></line>
+          <circle data-island-dot="" cx="34" cy="52" r="3.6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="52" cy="44" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="74" cy="56" r="3.6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="96" cy="42" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="118" cy="58" r="3.6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="140" cy="44" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="162" cy="56" r="3.6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="182" cy="46" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="62" cy="74" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="108" cy="74" r="3.6" fill="#F4C430" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
+          <circle data-island-dot="" cx="150" cy="74" r="3.6" fill="#5CD08A" style="transform-box:fill-box;transform-origin:center;animation:ya-light 3.4s ease-in-out infinite;"></circle>
         </svg>
       </div>
     </div>
